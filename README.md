@@ -54,6 +54,6 @@ I had recently learnt about fetch and ajax calls. With the help of this project,
 
 ## Author
 
-- Website - [Add your name here](https://www.linkedin.com/in/shoeb-ilyas-6754aa1b6/)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/shoebilyas123)
-- Twitter - [@yourusername](https://www.twitter.com/shoebilyas3)
+- Website - [ShoebIlyas-LinkedIn](https://www.linkedin.com/in/shoeb-ilyas-6754aa1b6/)
+- Frontend Mentor - [@shoebilyas123](https://www.frontendmentor.io/profile/shoebilyas123)
+- Twitter - [@shoebilyas3](https://www.twitter.com/shoebilyas3)
