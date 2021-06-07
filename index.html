@@ -1,0 +1,89 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CountriesInfo</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+    href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&display=swap"
+    rel="stylesheet"
+    />
+    <!-- Icon -->
+    <script
+      src="https://kit.fontawesome.com/628ce2bac5.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Stylesheets -->
+    <link id = 'myStylesheet' rel="stylesheet" href="/css/style.css" />
+    <link id="myDetailStylesheet" rel="stylesheet" href="/css//country_Details
+    .css" />
+
+    <!-- Scripts -->
+    <script defer src="/scripts/countryData.js"></script>
+    <script defer src="/scripts/themeSwitcher.js"></script>
+  </head>
+  <body>
+    <nav class="nav_container">
+      <h1 class="page_name">Where in the world?</h1>
+      <button class="btn btn_theme">
+        <i class="far fa-moon"></i> Dark Mode
+      </button>
+    </nav>
+    <div class="main_container">
+      <div class="search_section">
+        <form class="search_container">
+          <button class="btn_search"><i class="fas fa-search"></i></button>
+          <input
+          class="search_input"
+          type="text"
+          value="Search for a country..."
+          />
+        </form>
+        <!-- Container for selecting regions -->
+        <div class="option_container">
+          <div class="option_title">
+            <p>Filter by Region</p>
+            <i class="fas fa-caret-down"></i>
+          </div>
+          <div class="option_container__options hidden">
+            <ul class="options_region">
+              <li class="option" data-region="africa">Africa</li>
+              <li class="option" data-region="americas">America</li>
+              <li class="option" data-region="asia">Asia</li>
+              <li class="option" data-region="europe">Europe</li>
+              <li class="option" data-region="oceania">Oceania</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="attribution">
+        <p>Hosted on <a href="https://netlify.app/" target="_blank">Netlify</a> . Made by <a href="https://www.linkedin.com/in/shoeb-ilyas-6754aa1b6/" target="_blank">Shoeb Ilyas</a></p>
+      </div>  
+      <!-- Region option ends here -->
+      <!-- Search section ends here -->
+      <section class="countries"> </section>
+    </div>
+    <div class="country_details hidden">
+      <button class="btn btn_back">
+        <i class="fas fa-arrow-left"></i> Back
+      </button>
+      <div class="details">
+        <img class="country-flag" src="${country.flag}" alt="country_details_image" />
+        <div class="details__card">
+          <h3 class="country_name_title"></h3>
+          <div class="country_features">
+            <div class="features_1">
+            </div>
+            <div class="features_2">
+            </div>
+          </div>
+          <div class="border_countries">
+          </div>
+        </div>
+      </div>
+  </body>
+</html>
+    
