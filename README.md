@@ -25,7 +25,7 @@ Users should be able to:
 - Search for a country using an `input` field
 - Filter countries by region
 - Click on a country to see more detailed information on a separate page
-<!-- - Click through to the border countries on the detail page -->
+- Click through to the border countries on the detail page
 - Toggle the color scheme between light and dark mode _(optional)_
 
 ### Screenshots
@@ -35,8 +35,8 @@ Users should be able to:
 -Mobile: ![Desktop](./mobile_SS.png)
 -DetailsPage-Mobile![Mobile](./details_mobile_SS.png)
 
-- Solution URL: []()
-- Live Site URL: [](https://shoebilyas-restcountries.netlify.app/)
+- Solution URL: ![Solution Link-Frontendmentor.io]()
+- Live Site URL: ![Live Site!](https://shoebilyas-restcountries.netlify.app/)
 
 ## My Process
 
