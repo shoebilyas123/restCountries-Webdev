@@ -28,11 +28,11 @@ Users should be able to:
 <!-- - Click through to the border countries on the detail page -->
 - Toggle the color scheme between light and dark mode _(optional)_
 
-### Screenshot
+### Screenshots
 
--Desktop: ![Desktop](./desltop_SS.png)
--Mobile: ![Desktop](./mobile_SS.png)
+-Desktop: ![Desktop](./desktop_SS.png)
 -DetailsPage-Desktop: ![Desktop](./details_SS.png)
+-Mobile: ![Desktop](./mobile_SS.png)
 -DetailsPage-Mobile![Mobile](./details_mobile_SS.png)
 
 - Solution URL: []()
